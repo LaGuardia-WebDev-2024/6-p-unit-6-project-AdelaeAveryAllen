@@ -9,19 +9,22 @@ void setup() {
 void draw(){
   fill(255,255,255, 0);
   strokeWeight(1);
+  stroke(0,0,0)
 
   //💡⬇️⬇️⬇️💡 Your Code For This Project Goes Here
-  //fill(0,0,200)
-  ellipse(250,300,200,50) 
- // fill(200,0,0)
+  fill(211,211,211)
+ ellipse(250,300,200,50) 
+  fill(255, 140, 0)
   ellipse (200,200,200,200) 
- // fill(0,200,0)
-  ellipse(300,200,190,190) 
- // fill(0,100,0)
+  fill(255, 140, 0)
+  ellipse(300,200,180,190) 
+  fill(255, 165, 0)
   ellipse(285,200,150,190) 
-
+fill(0,200,0)
 ellipse(135,80,100,20)
 
+stroke(0,200,0)
+strokeWeight(10)
 line (187,58,187,100)
 
 }
