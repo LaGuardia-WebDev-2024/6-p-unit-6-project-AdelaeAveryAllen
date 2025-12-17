@@ -12,20 +12,32 @@ void draw(){
   stroke(0,0,0)
 
   //💡⬇️⬇️⬇️💡 Your Code For This Project Goes Here
-  fill(211,211,211)
- ellipse(250,300,200,50) 
-  fill(255, 140, 0)
-  ellipse (200,200,200,200) 
-  fill(255, 140, 0)
-  ellipse(300,200,180,190) 
-  fill(255, 165, 0)
-  ellipse(285,200,150,190) 
+
+  
+fill(211,211,211)
+ellipse(250,300,200,50); // shadow
+fill(255, 140, 0)
+ellipse (200,200,200,200); //full
+fill(255, 140, 0)
+ellipse(300,200,180,190); //sliced back
+fill(255, 165, 0)
+ellipse(285,200,150,190); //sliced real
+
 fill(0,200,0)
 ellipse(135,80,100,20)
+rect (185,55,7,50,20); // stem
+stroke(255, 253, 208)
+strokeWeight(5)
+line(286, 117, 270, 280)
+line(220,183, 340, 219)
+line(240, 135, 315, 268)
+line(343, 153,223, 242)
 
-stroke(0,200,0)
-strokeWeight(10)
-line (187,58,187,100)
+fill(0,0,0,0)
+ellipse(285,200,140,180)
+
+
+
 
 }
 
